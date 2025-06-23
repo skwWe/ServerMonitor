@@ -1,15 +1,15 @@
 [
   {
-    "ContainingType": "ServerApiClient.Controllers.ParametersController",
-    "Method": "GetParameters",
-    "RelativePath": "api/Parameters",
+    "ContainingType": "ServerMonitoringApi.Controllers.BlocksController",
+    "Method": "GetBlocks",
+    "RelativePath": "api/Blocks",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Parameter, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Block, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -20,22 +20,22 @@
     ]
   },
   {
-    "ContainingType": "ServerApiClient.Controllers.ParametersController",
-    "Method": "AddParameter",
-    "RelativePath": "api/Parameters",
+    "ContainingType": "ServerMonitoringApi.Controllers.BlocksController",
+    "Method": "PostBlock",
+    "RelativePath": "api/Blocks",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "parameterDto",
-        "Type": "ServerApiClient.Controllers.ParametersController\u002BParametersDto",
+        "Name": "block",
+        "Type": "ServerApiClient.Models.Block",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ServerApiClient.Parameter",
+        "Type": "ServerApiClient.Models.Block",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -46,9 +46,9 @@
     ]
   },
   {
-    "ContainingType": "ServerApiClient.Controllers.ParametersController",
-    "Method": "GetParameterById",
-    "RelativePath": "api/Parameters/{id}",
+    "ContainingType": "ServerMonitoringApi.Controllers.BlocksController",
+    "Method": "GetBlock",
+    "RelativePath": "api/Blocks/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ServerApiClient.Parameter",
+        "Type": "ServerApiClient.Models.Block",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -72,9 +72,9 @@
     ]
   },
   {
-    "ContainingType": "ServerApiClient.Controllers.ParametersController",
-    "Method": "UpdateParameter",
-    "RelativePath": "api/Parameters/{id}",
+    "ContainingType": "ServerMonitoringApi.Controllers.BlocksController",
+    "Method": "PutBlock",
+    "RelativePath": "api/Blocks/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -85,17 +85,17 @@
         "IsRequired": true
       },
       {
-        "Name": "parameterDto",
-        "Type": "ServerApiClient.Controllers.ParametersController\u002BParametersDto",
+        "Name": "block",
+        "Type": "ServerApiClient.Models.Block",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ServerApiClient.Controllers.ParametersController",
-    "Method": "DeleteParameter",
-    "RelativePath": "api/Parameters/{id}",
+    "ContainingType": "ServerMonitoringApi.Controllers.BlocksController",
+    "Method": "DeleteBlock",
+    "RelativePath": "api/Blocks/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -109,16 +109,16 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ServerApiClient.Controllers.ProblemsController",
-    "Method": "GetProblems",
-    "RelativePath": "api/Problems",
+    "ContainingType": "ServerMonitoringApi.Controllers.BlocksController",
+    "Method": "GetBlocks_ServerParameter",
+    "RelativePath": "api/Blocks/server_parameter",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Controllers.ProblemsController\u002BProblemDto, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Block, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -129,22 +129,16 @@
     ]
   },
   {
-    "ContainingType": "ServerApiClient.Controllers.ProblemsController",
-    "Method": "AddProblem",
-    "RelativePath": "api/Problems",
-    "HttpMethod": "POST",
+    "ContainingType": "ServerApiClient.Controllers.ErrorsController",
+    "Method": "GetErrors",
+    "RelativePath": "api/Errors",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "problemDto",
-        "Type": "ServerApiClient.Controllers.ProblemsController\u002BProblemDto",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "ServerApiClient.Problem",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Error, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -155,9 +149,9 @@
     ]
   },
   {
-    "ContainingType": "ServerApiClient.Controllers.ProblemsController",
-    "Method": "GetProblem",
-    "RelativePath": "api/Problems/{id}",
+    "ContainingType": "ServerApiClient.Controllers.ErrorsController",
+    "Method": "GetErrorById",
+    "RelativePath": "api/Errors/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -170,7 +164,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ServerApiClient.Controllers.ProblemsController\u002BProblemDto",
+        "Type": "ServerApiClient.Models.Error",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -181,10 +175,128 @@
     ]
   },
   {
-    "ContainingType": "ServerApiClient.Controllers.ProblemsController",
-    "Method": "UpdateProblem",
-    "RelativePath": "api/Problems/{id}",
-    "HttpMethod": "PUT",
+    "ContainingType": "ServerApiClient.Controllers.ErrorsController",
+    "Method": "GetErrors_ByImportance",
+    "RelativePath": "api/Errors/ByImportance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "importance",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Error, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerApiClient.Controllers.ErrorsController",
+    "Method": "GetErrors_ByServer",
+    "RelativePath": "api/Errors/ByServer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "server",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Error, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerApiClient.Controllers.ErrorsController",
+    "Method": "GetServers_ByState",
+    "RelativePath": "api/Errors/byState",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "state",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Error, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerApiClient.Controllers.ErrorsController",
+    "Method": "GetErrors_ErrorBlock",
+    "RelativePath": "api/Errors/server_block",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Error, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerApiClient.Controllers.MetricsController",
+    "Method": "GetMetric",
+    "RelativePath": "api/Metrics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Metric, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerApiClient.Controllers.MetricsController",
+    "Method": "GetMetricById",
+    "RelativePath": "api/Metrics/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -192,33 +304,94 @@
         "Name": "id",
         "Type": "System.Guid",
         "IsRequired": true
-      },
-      {
-        "Name": "problemDto",
-        "Type": "ServerApiClient.Controllers.ProblemsController\u002BProblemDto",
-        "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "ServerApiClient.Models.Metric",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
-    "ContainingType": "ServerApiClient.Controllers.ProblemsController",
-    "Method": "DeleteProblem",
-    "RelativePath": "api/Problems/{id}",
-    "HttpMethod": "DELETE",
+    "ContainingType": "ServerApiClient.Controllers.MetricsController",
+    "Method": "GetMetrics_ByServer",
+    "RelativePath": "api/Metrics/ByServer",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "server",
         "Type": "System.Guid",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Metric, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
-    "ContainingType": "ServerApiClient.Controllers.ServersController",
+    "ContainingType": "ServerApiClient.Controllers.ParametersController",
+    "Method": "GetServers",
+    "RelativePath": "api/Parameters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Parameter, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerApiClient.Controllers.ParametersController",
+    "Method": "GetParameters_ByName",
+    "RelativePath": "api/Parameters/ByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Parameter, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerMonitoringApi.Controllers.ServersController",
     "Method": "GetServers",
     "RelativePath": "api/Servers",
     "HttpMethod": "GET",
@@ -227,7 +400,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Server, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Server, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -238,7 +411,7 @@
     ]
   },
   {
-    "ContainingType": "ServerApiClient.Controllers.ServersController",
+    "ContainingType": "ServerMonitoringApi.Controllers.ServersController",
     "Method": "PostServer",
     "RelativePath": "api/Servers",
     "HttpMethod": "POST",
@@ -246,14 +419,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "serverDto",
-        "Type": "ServerApiClient.Controllers.ServersController\u002BServerDto",
+        "Name": "server",
+        "Type": "ServerApiClient.Models.Server",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ServerApiClient.Server",
+        "Type": "ServerApiClient.Models.Server",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -264,7 +437,7 @@
     ]
   },
   {
-    "ContainingType": "ServerApiClient.Controllers.ServersController",
+    "ContainingType": "ServerMonitoringApi.Controllers.ServersController",
     "Method": "GetServer",
     "RelativePath": "api/Servers/{id}",
     "HttpMethod": "GET",
@@ -279,7 +452,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ServerApiClient.Server",
+        "Type": "ServerApiClient.Models.Server",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -290,8 +463,8 @@
     ]
   },
   {
-    "ContainingType": "ServerApiClient.Controllers.ServersController",
-    "Method": "Update",
+    "ContainingType": "ServerMonitoringApi.Controllers.ServersController",
+    "Method": "PutServer",
     "RelativePath": "api/Servers/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -303,16 +476,16 @@
         "IsRequired": true
       },
       {
-        "Name": "serverDto",
-        "Type": "ServerApiClient.Controllers.ServersController\u002BServerDto",
+        "Name": "server",
+        "Type": "ServerApiClient.Models.Server",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ServerApiClient.Controllers.ServersController",
-    "Method": "Delete",
+    "ContainingType": "ServerMonitoringApi.Controllers.ServersController",
+    "Method": "DeleteServer",
     "RelativePath": "api/Servers/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
@@ -327,16 +500,125 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ServerApiClient.Controllers.ServersGroupsController",
-    "Method": "GetServersGroups",
-    "RelativePath": "api/ServersGroups",
+    "ContainingType": "ServerMonitoringApi.Controllers.ServersController",
+    "Method": "GetServers_ByBlock",
+    "RelativePath": "api/Servers/byBlock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "block",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Server, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerMonitoringApi.Controllers.ServersController",
+    "Method": "GetServers_ByImportance",
+    "RelativePath": "api/Servers/byImportance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "importance",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Server, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerMonitoringApi.Controllers.ServersController",
+    "Method": "GetServers_ByName",
+    "RelativePath": "api/Servers/byName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ip",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Server, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerMonitoringApi.Controllers.ServersController",
+    "Method": "GetServers_ByState",
+    "RelativePath": "api/Servers/byState",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "state",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Server, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerMonitoringApi.Controllers.ServersController",
+    "Method": "GetServers_ErrorBlock",
+    "RelativePath": "api/Servers/error_block",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.ServersGroup, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Server, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -345,94 +627,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "ServerApiClient.Controllers.ServersGroupsController",
-    "Method": "PostServersGroup",
-    "RelativePath": "api/ServersGroups",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "serversGroupDto",
-        "Type": "ServerApiClient.Controllers.ServersGroupsController\u002BServerGroupsDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "ServerApiClient.ServersGroup",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ServerApiClient.Controllers.ServersGroupsController",
-    "Method": "GetServersGroup",
-    "RelativePath": "api/ServersGroups/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "ServerApiClient.ServersGroup",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ServerApiClient.Controllers.ServersGroupsController",
-    "Method": "PutServersGroup",
-    "RelativePath": "api/ServersGroups/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "serversGroupDto",
-        "Type": "ServerApiClient.Controllers.ServersGroupsController\u002BServerGroupsDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ServerApiClient.Controllers.ServersGroupsController",
-    "Method": "Delete",
-    "RelativePath": "api/ServersGroups/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   }
 ]

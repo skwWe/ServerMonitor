@@ -1,9 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using ServerApiClient;
+using ServerApiClient.Models;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<PostgresContext>();
+builder.Services.AddDbContext<ServerMonitoringContext>();
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
