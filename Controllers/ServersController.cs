@@ -66,7 +66,7 @@ public class ServersController(ServerMonitoringContext context) : ControllerBase
         _ = _context.Servers.Add(server);
         _ = await _context.SaveChangesAsync();
 
-        return CreatedAtAction(nameof(GetServer), new { id = server.Id }, server);
+        return CreatedAtAction("GetServer", new { id = server.Id }, server);
     }
 
     [HttpPut("{id}")]

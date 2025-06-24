@@ -25,7 +25,7 @@ namespace ServerApiClient.Controllers
         }
 
         [HttpGet("ByParameter")]
-        public async Task<ActionResult<IEnumerable<ServerParameter>>> GetServerParametersByParameter(Guid parameter)
+        public async Task<ActionResult<IEnumerable<ServerParameter>>> GetServerParametersByParameter([FromQuery] Guid parameter)
         {
             return await _context.ServerParameters.Include(x => x.Parameter).Where(x => x.ParameterId == parameter).ToListAsync();
         }
@@ -46,10 +46,15 @@ namespace ServerApiClient.Controllers
                 return BadRequest(ModelState);
             }
 
+            if (serverParameter == null)
+            {
+                return BadRequest("Таблица ServerParameter не может быть null");
+            }
+
             _ = _context.ServerParameters.Add(serverParameter);
             _ = await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetServerParameters), new { id = serverParameter.Id }, serverParameter);
+            return CreatedAtAction("GetServerParameters", new { id = serverParameter.Id }, serverParameter);
         }
 
         [HttpPut("{id}")]

@@ -15,7 +15,7 @@ public partial class Server
 
     public bool State { get; set; }
 
-    public virtual Block Block { get; set; } = null!;
+    public virtual Block? Block { get; set; } = null!;
 
     public virtual ICollection<Error> Errors { get; set; } = new List<Error>();
 
