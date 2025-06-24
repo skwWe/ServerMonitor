@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\controllers\\serverparameterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:controllers\\serverparameterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\controllers\\serverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:controllers\\serverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\controllers\\parameterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:controllers\\parameterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\models\\servermonitoringcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:models\\servermonitoringcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\models\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:models\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\controllers\\metricscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,44 +47,12 @@
       "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:models\\serverparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\models\\servermonitoringcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:models\\servermonitoringcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\models\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:models\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\models\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:models\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\parameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:parameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\postgrescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:postgrescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\serversgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:serversgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -85,6 +69,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|c:\\users\\dom\\source\\repos\\servermonitor\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{555A5F59-5DE2-AA92-FF07-0CAC5EDC16E8}|ServerApiClient.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Parameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Parameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dom\\source\\repos\\ServerMonitor\\PostgresContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PostgresContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dom\\source\\repos\\ServerMonitor\\ServersGroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServersGroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,33 +106,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Metric.cs",
-              "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Models\\Metric.cs",
-              "RelativeDocumentMoniker": "Models\\Metric.cs",
-              "ToolTip": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Models\\Metric.cs",
-              "RelativeToolTip": "Models\\Metric.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ServerParametersController.cs",
+              "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Controllers\\ServerParametersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServerParametersController.cs",
+              "ToolTip": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Controllers\\ServerParametersController.cs*",
+              "RelativeToolTip": "Controllers\\ServerParametersController.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T23:37:46.593Z",
+              "WhenOpened": "2025-06-24T10:30:51.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Parameter.cs",
-              "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Models\\Parameter.cs",
-              "RelativeDocumentMoniker": "Models\\Parameter.cs",
-              "ToolTip": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Models\\Parameter.cs",
-              "RelativeToolTip": "Models\\Parameter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T23:37:32.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "ServerParameter.cs",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Models\\ServerParameter.cs",
               "RelativeDocumentMoniker": "Models\\ServerParameter.cs",
@@ -136,38 +127,37 @@
               "RelativeToolTip": "Models\\ServerParameter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T23:33:30.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T23:33:30.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ParametersController.cs",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Controllers\\ParametersController.cs",
               "RelativeDocumentMoniker": "Controllers\\ParametersController.cs",
-              "ToolTip": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Controllers\\ParametersController.cs*",
-              "RelativeToolTip": "Controllers\\ParametersController.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABdAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Controllers\\ParametersController.cs",
+              "RelativeToolTip": "Controllers\\ParametersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T23:29:25.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "Error.cs",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Models\\Error.cs",
               "RelativeDocumentMoniker": "Models\\Error.cs",
               "ToolTip": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Models\\Error.cs",
               "RelativeToolTip": "Models\\Error.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T22:14:22.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Server.cs",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Models\\Server.cs",
               "RelativeDocumentMoniker": "Models\\Server.cs",
@@ -175,25 +165,24 @@
               "RelativeToolTip": "Models\\Server.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T21:11:03.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T21:11:03.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "ServerMonitoringContext.cs",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Models\\ServerMonitoringContext.cs",
               "RelativeDocumentMoniker": "Models\\ServerMonitoringContext.cs",
               "ToolTip": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Models\\ServerMonitoringContext.cs",
               "RelativeToolTip": "Models\\ServerMonitoringContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAwAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwEIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T21:10:01.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Parameter.cs",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Parameter.cs",
               "RelativeDocumentMoniker": "Parameter.cs",
@@ -201,12 +190,11 @@
               "RelativeToolTip": "Parameter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T16:13:54.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T16:13:54.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "PostgresContext.cs",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\PostgresContext.cs",
               "RelativeDocumentMoniker": "PostgresContext.cs",
@@ -214,38 +202,37 @@
               "RelativeToolTip": "PostgresContext.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T16:33:29.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T16:33:29.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MetricsController.cs",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Controllers\\MetricsController.cs",
               "RelativeDocumentMoniker": "Controllers\\MetricsController.cs",
               "ToolTip": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Controllers\\MetricsController.cs",
               "RelativeToolTip": "Controllers\\MetricsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T16:24:38.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ServersController.cs",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Controllers\\ServersController.cs",
               "RelativeDocumentMoniker": "Controllers\\ServersController.cs",
-              "ToolTip": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Controllers\\ServersController.cs*",
-              "RelativeToolTip": "Controllers\\ServersController.cs*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAUwB0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Controllers\\ServersController.cs",
+              "RelativeToolTip": "Controllers\\ServersController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowF8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T14:56:43.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Block.cs",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Models\\Block.cs",
               "RelativeDocumentMoniker": "Models\\Block.cs",
@@ -253,12 +240,48 @@
               "RelativeToolTip": "Models\\Block.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T22:47:48.371Z",
+              "WhenOpened": "2025-06-23T22:47:48.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Controllers\\ErrorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ErrorsController.cs",
+              "ToolTip": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Controllers\\ErrorsController.cs",
+              "RelativeToolTip": "Controllers\\ErrorsController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwDoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T16:56:11.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
+              "Title": "Parameter.cs",
+              "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Models\\Parameter.cs",
+              "RelativeDocumentMoniker": "Models\\Parameter.cs",
+              "ToolTip": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Models\\Parameter.cs",
+              "RelativeToolTip": "Models\\Parameter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T23:37:32.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Metric.cs",
+              "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Models\\Metric.cs",
+              "RelativeDocumentMoniker": "Models\\Metric.cs",
+              "ToolTip": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Models\\Metric.cs",
+              "RelativeToolTip": "Models\\Metric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T23:37:46.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -266,25 +289,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T14:54:09.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T14:54:09.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ErrorsController.cs",
-              "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Controllers\\ErrorsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ErrorsController.cs",
-              "ToolTip": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Controllers\\ErrorsController.cs",
-              "RelativeToolTip": "Controllers\\ErrorsController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAywDAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T16:56:11.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -292,12 +301,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-16T15:08:08.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T15:08:08.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "ServersGroup.cs",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\ServersGroup.cs",
               "RelativeDocumentMoniker": "ServersGroup.cs",
@@ -305,12 +313,11 @@
               "RelativeToolTip": "ServersGroup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T16:40:25.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T16:40:25.842Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Server.cs",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Server.cs",
               "RelativeDocumentMoniker": "Server.cs",
@@ -318,12 +325,11 @@
               "RelativeToolTip": "Server.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T14:54:01.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T14:54:01.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Problem.cs",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Problem.cs",
               "RelativeDocumentMoniker": "Problem.cs",
@@ -331,12 +337,11 @@
               "RelativeToolTip": "Problem.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAmwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T15:01:48.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T15:01:48.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 16,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -344,12 +349,11 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-16T16:45:21.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T16:45:21.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 15,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -357,12 +361,11 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-16T16:45:29.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T16:45:29.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 14,
               "Title": "ServerApiClient.csproj",
               "DocumentMoniker": "C:\\Users\\Dom\\source\\repos\\ServerMonitor\\ServerApiClient.csproj",
               "RelativeDocumentMoniker": "ServerApiClient.csproj",
@@ -370,8 +373,7 @@
               "RelativeToolTip": "ServerApiClient.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-16T16:46:04.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T16:46:04.862Z"
             }
           ]
         }

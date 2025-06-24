@@ -228,7 +228,7 @@
   },
   {
     "ContainingType": "ServerApiClient.Controllers.ErrorsController",
-    "Method": "GetServers_ByState",
+    "Method": "GetErrors_ByState",
     "RelativePath": "api/Errors/byState",
     "HttpMethod": "GET",
     "IsController": true,
@@ -237,6 +237,32 @@
       {
         "Name": "state",
         "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Error, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerApiClient.Controllers.ErrorsController",
+    "Method": "GetRecentErrors",
+    "RelativePath": "api/Errors/recent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "minutesAgo",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],
@@ -366,6 +392,32 @@
   },
   {
     "ContainingType": "ServerApiClient.Controllers.ParametersController",
+    "Method": "GetParameterById",
+    "RelativePath": "api/Parameters/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ServerApiClient.Models.Parameter",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerApiClient.Controllers.ParametersController",
     "Method": "GetParameters_ByName",
     "RelativePath": "api/Parameters/ByName",
     "HttpMethod": "GET",
@@ -381,6 +433,167 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.Parameter, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerApiClient.Controllers.ServerParametersController",
+    "Method": "GetServerParameters",
+    "RelativePath": "api/ServerParameters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.ServerParameter, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerApiClient.Controllers.ServerParametersController",
+    "Method": "PostServerParameter",
+    "RelativePath": "api/ServerParameters",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "serverParameter",
+        "Type": "ServerApiClient.Models.ServerParameter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ServerApiClient.Models.ServerParameter",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerApiClient.Controllers.ServerParametersController",
+    "Method": "GetServerParameter",
+    "RelativePath": "api/ServerParameters/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ServerApiClient.Models.ServerParameter",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerApiClient.Controllers.ServerParametersController",
+    "Method": "PutServerParameter",
+    "RelativePath": "api/ServerParameters/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "serverParameter",
+        "Type": "ServerApiClient.Models.ServerParameter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServerApiClient.Controllers.ServerParametersController",
+    "Method": "DeleteServerParameter",
+    "RelativePath": "api/ServerParameters/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServerApiClient.Controllers.ServerParametersController",
+    "Method": "GetServerParametersByParameter",
+    "RelativePath": "api/ServerParameters/ByParameter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.ServerParameter, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServerApiClient.Controllers.ServerParametersController",
+    "Method": "GetServerParametersByServer",
+    "RelativePath": "api/ServerParameters/ByServer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "server",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServerApiClient.Models.ServerParameter, ServerApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

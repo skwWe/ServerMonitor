@@ -61,10 +61,10 @@ public partial class ServerMonitoringContext : DbContext
                 .HasDefaultValueSql("gen_random_uuid()")
                 .HasColumnName("id");
             entity.Property(e => e.CreatedAt)
-                .HasColumnType("timestamp without time zone")
+                .HasColumnType("timestamp with time zone")
                 .HasColumnName("created_at");
             entity.Property(e => e.FinishedAt)
-                .HasColumnType("timestamp without time zone")
+                .HasColumnType("timestamp with time zone")
                 .HasColumnName("finished_at");
             entity.Property(e => e.Importance).HasColumnName("importance");
             entity.Property(e => e.Message).HasColumnName("message");

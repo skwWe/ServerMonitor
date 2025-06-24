@@ -43,11 +43,27 @@ namespace ServerApiClient.Controllers
         }
 
         [HttpGet("byState")]
-        public async Task<ActionResult<IEnumerable<Error>>> GetServers_ByState([FromQuery] bool state)
+        public async Task<ActionResult<IEnumerable<Error>>> GetErrors_ByState([FromQuery] bool state)
         {
             return await _context.Errors.Include(x => x.Server).ThenInclude(x => x.Block).Where(x => x.State == state).ToListAsync();
         }
 
+        [HttpGet("recent")]
+        public async Task<ActionResult<IEnumerable<Error>>> GetRecentErrors([FromQuery] int minutesAgo)
+        {
+            if (minutesAgo != 5 && minutesAgo != 10 && minutesAgo != 15)
+            {
+                return BadRequest("Допустимые значения: 5, 10 или 15 минут.");
+            }
+
+            var targetTime = DateTime.UtcNow.AddMinutes(-minutesAgo);
+
+                var recentErrors = await _context.Errors
+            .Where(e => e.CreatedAt >= targetTime) 
+            .ToListAsync();
+
+            return recentErrors;
+        }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Error>> GetErrorById(Guid id)
